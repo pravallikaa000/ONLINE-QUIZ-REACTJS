@@ -1,0 +1,157 @@
+/* Home.css */
+
+/* Reset and Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+  width: 100%;
+  background-color: #3c00a0;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header .logo h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: white;
+  color: #3c00a0;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Main Content (Homepage) */
+main {
+  flex: 1;
+  margin-top: 120px; /* Space for fixed header */
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  color: white;
+  background-image: url('https://t3.ftcdn.net/jpg/05/60/26/26/360_F_560262652_SMg7tie3Zii0zFT9LYkKMqrNrPcU5owB.jpg');
+  background-size: 130% 100%;
+  background-position: center;
+}
+
+.scrolling-text p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.guide {
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+  margin: 20px auto;
+}
+
+.guide h3 {
+  font-size: 24px;
+  color: #3c00a0;
+  margin-bottom: 15px;
+}
+
+.guide ol {
+  padding-left: 20px;
+}
+
+.step-icon {
+  margin-right: 10px;
+}
+
+/* Start Quiz Button */
+.start-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+  width: 100%;
+  background-color: #3c00a0;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}

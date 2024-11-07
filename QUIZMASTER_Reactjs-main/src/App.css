@@ -1,0 +1,147 @@
+/* Global Styles */
+body, .App {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f4f4f9;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+}
+
+.header .logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Registration Form */
+.login-box {
+  background: #003366;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.login-box:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+  color: #f4f4f9;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background: #e6f0ff;
+  color: #333;
+}
+
+.login-box input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.login-box button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #357abf;
+}
+
+.avatar {
+  font-size: 40px;
+  color: #4a90e2;
+}
+
+.password-strength {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.password-strength.weak {
+  color: red;
+}
+
+.password-strength.moderate {
+  color: orange;
+}
+
+.password-strength.strong {
+  color: green;
+}
+
+.highlighted-captcha {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.countdown {
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.countdown i {
+  margin-right: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
